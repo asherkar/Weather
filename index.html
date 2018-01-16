@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>Weather App</title>
+				<link rel="stylesheet" type="text/css" href="mystyle.css">
+				<script type="text/javascript" src="weatherapp.js"></script>
+        </head>        
+
+        <body>
+			
+			<div class="utility">
+				<p class="searchInstru">Enter city name below:</p> 
+				<br>
+					<input type="text" name="City" id="inputCity" placeholder="City Name">
+					<input type="button" name="" onclick="usrCity()" value="Search!">
+				<br>
+				
+
+			</div>
+			<div class="toggle">
+				<button id="toggleF">Toggle Fahrenheit</button>
+				<button id="toggleC">Toggle Celcius</button>
+			</div>
+			 <div class="app">
+			 	
+			 		<div class="currIcon">
+			 			<img id="cIcon" src="" width="75px">
+			 		</div>
+			 		<div class="city">
+			 			<span id="location"></span>
+			 		</div>
+
+			 		<div class="temp">
+			 			<span id="temperature">0</span> &deg;
+			 			<br>
+			 			<img src="images/humid.png" width="16px;"><span id="humidity">0</span>%
+
+			 		</div>
+
+			 		<div class="wind">
+			 			<span id="wind">0</span> m/s <span id="direction"></span>
+			 		</div>
+			</div>
+			<hr>
+			<h2 style="text-align: center;"> 5 Day forecast by every 3 Hours:</h2>
+
+			<div id="weekly">
+				
+				
+				
+			</div>
+
+			<footer class="foot" > &#169; 2017 Anurag Sherkar </footer>
+	    </body>
+	
+</html>
+

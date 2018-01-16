@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre');
+
+html{
+	
+	background-image: url("images/bg2.jpg");
+	
+	font-family: 'Averia Serif Libre', cursive;
+	font-weight: bold;
+
+
+}
+
+body{
+	margin: 0;
+	padding:0;
+}
+
+.app{
+	text-align: center;
+	margin-top: 5px;
+	}
+
+
+.utility{
+	text-align: center;
+	padding-top: 30px;
+}
+
+
+.weekly{
+	text-align: center;
+	padding-top: 30px;
+}
+
+.foot {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+input[type=button]{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+  	text-decoration: none;
+    border-radius: 8px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    
+}	
+
+#toggleF{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+  	text-decoration: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    margin:auto;
+    display: block;
+    margin-top: 10px;
+}
+
+#toggleC{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+  	text-decoration: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    margin:auto;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type=text]{
+	border-radius: 2px;
+	border-style: 3px solid;
+	border-color: black;
+	width: 200px;
+	height: 30px;
+}
+
+@media screen and (min-width:250px) and (max-width: 399){
+	input[type=button]{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    
+}	
+}
+input[type=text]{
+	border-radius: 2px;
+	border-style: 3px solid;
+	border-color: black;
+	width: 100px;
+	height: 15px;
+}
+
+
+@media screen and (min-width:400px) and (max-width: 767) {
+	
+	input[type=button]{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    
+}	
+}
+input[type=text]{
+	border-radius: 2px;
+	border-style: 3px solid;
+	border-color: black;
+	width: 100px;
+	height: 15px;
+}
+
+
+}
+
+@media screen and (min-width:768px) and (max-width: 1023) and (orientation: portrait){
+	#toggleF{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+  	text-decoration: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    margin:auto;
+    display: block;
+    margin-top: 10px;
+}
+
+#toggleC{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+  	text-decoration: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    margin:auto;
+    display: block;
+    margin-top: 10px;
+}
+}
+
+@media screen and (min-width:1024px){
+	#toggleF{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+  	text-decoration: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    margin:auto;
+    display: block;
+    margin-top: 10px;
+}
+
+#toggleC{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+  	text-decoration: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    margin:auto;
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+	
+}
+
+
